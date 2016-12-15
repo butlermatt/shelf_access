@@ -1,0 +1,15 @@
+name: shelf_access
+description: Provides Shelf Middleware to support Http Basic and Digest Authentication
+version: 0.0.1
+author: Matthew Butler <butler.matthew@gmail.com>
+#homepage: https://www.example.com
+
+environment:
+  sdk: '>=1.21.0 <2.0.0'
+
+dependencies:
+  shelf: '^0.6.7'
+  crypto: '^2.0.1'
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
